@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #282c34;
+    /* Dark background color for a futuristic feel */
+    color: #61dafb;
+    /* Light text color */
+    font-family: 'Roboto', sans-serif;
+    /* Choose a modern font */
+}
+
+h1,
+h2,
+h3,h4 {
+    font-family: 'Lato', sans-serif;
+    /* Change the font for h1, h2, and h3 */
+    color: #61dafb;
+    /* Light blue text color for all headings */
+    text-shadow: 2px 2px 4px rgba(97, 218, 251, 0.8);
+    /* Soft shadow for depth */
+}
+
+h3 {
+    font-size: 1.8em;
+    /* Font size for h3 */
+}
+
+.row1,
+.row2 {
+    display: flex;
+}
+
+.box1 {
+    background-color: #ff5f5f;
+    /* Light red */
+}
+
+.box2 {
+    background-color: #ffd700;
+    /* Gold */
+}
+
+.box3 {
+    background-color: #77dd77;
+    /* Pastel green */
+}
+
+.box4 {
+    background-color: #6495ed;
+    /* Cornflower blue */
+}
+
+.box {
+    grid-column: 1 / span 2;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #00bfff;
+    /* Deep sky blue border for a futuristic look */
+    margin: 25px;
+    border-radius: 10%;
+    /* Circular border for a more futuristic appearance */
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+    /* Soft blue shadow for depth */
+}
+
+.white {
+    background-color: white;
+}
